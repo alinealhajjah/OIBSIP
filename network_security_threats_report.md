@@ -73,10 +73,43 @@ Burkholder explained that Dug Song solved the demonstration by exploiting this w
 The mitigation technique Burkholder emphasized was strict SSL/TLS client configuration and certificate validation. He argued that users and administrators must enforce proper certificate checking, reject mismatched or suspicious certificates, and educate users not to ignore browser warnings. By ensuring that clients verify the authenticity of certificates, the attack could be prevented, closing the gap that allowed _webmitm_ to succeed.
 
 
-
 ### Impact
 
+**Intercept communicated data**
+    - A MitM attacker positions themselves between two communicating parties and can intercept data traveling between them. This allows the attacker to gain unauthorized access to sensitive information.
+- **Alter data traveling between communicating parties**
+    - The attacker can modify messages in transit without the knowledge of either party, potentially changing the content or meaning of the communication.
+- **Masquerade as one or more entities involved in a communication association**
+    - NIST describes MitM as an active wiretapping attack in which the attacker can masquerade as one or more legitimate entities, causing both parties to trust the malicious intermediary.
+- **Compromise authentication processes**
+    - In authentication scenarios, the attacker may position themselves between the claimant and verifier, or between a subscriber and a Credential Service Provider (CSP), enabling interception or manipulation of authentication data.
+
+
 ### Mitigation Strategies
+
+**Mutual authentication**
+     NIST authentication guidance emphasizes verifying the identities of both communicating parties, reducing the likelihood that an attacker can successfully position themselves between them.
+
+     
+**Transport Layer Security (TLS)**
+    - Using TLS provides confidentiality and integrity protection for communications, making it more difficult for attackers to intercept and modify data in transit.
+
+    
+**Message Authentication Codes (MACs)**
+    - NIST defines a MAC as a cryptographic checksum that detects both accidental and intentional modifications of data, providing authenticity and integrity    protection.
+
+    
+**Cryptographic integrity protection**
+    - Applying cryptographic mechanisms to verify message integrity helps detect unauthorized modifications made by a MitM attacker.
+**Strong authenticator binding**
+    - NIST recommends secure authenticator binding between subscribers and Credential Service Providers to reduce opportunities for MitM attacks during enrollment and authentication processes.
+
+
+
+
+
+
+
 
 ---
 
