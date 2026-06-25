@@ -147,6 +147,8 @@ Burkholder, P. (2002, February 1). *SSL man-in-the-middle attacks*. SANS Institu
 
 Cybersecurity and Infrastructure Security Agency. (2020, July 16). *Russian state-sponsored actors exploiting default multifactor authentication protocols and "network trusts"*. U.S. Department of Homeland Security. https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-198a
 
+Awati, R. (2021, November 5). What is cache poisoning and how does it work? TechTarget. https://www.techtarget.com/searchsecurity/definition/cache-poisoning
+
 Cybersecurity and Infrastructure Security Agency. (2021, February 1). *Understanding denial-of-service attacks*. U.S. Department of Homeland Security. https://www.cisa.gov/news-events/news/understanding-denial-service-attacks
 
 GitHub Engineering. (2018, February 28). *DDoS attack incident report*. GitHub Engineering Blog.
