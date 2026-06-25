@@ -104,19 +104,13 @@ The mitigation technique Burkholder emphasized was strict SSL/TLS client configu
 **Strong authenticator binding**
     - NIST recommends secure authenticator binding between subscribers and Credential Service Providers to reduce opportunities for MitM attacks during enrollment and authentication processes.
 
-
-
-
-
-
-
-
 ---
 
 ## IP Spoofing
 
 ### How It Works
 
+IP spoofing is when a threat actor create IP packets using a false IP address. Then attackers manipulate the source address in the packet header so that the victim believes the packet originated from a different system . This allows the attacker to impersonate another computing systems. IP spoofing exploits the fact that the Internet Protocol does not inherently verify whether the source IP address in a packet is  authentic. Attackers frequently employ IP spoofing in Distributed Denial-of-Service (DDoS) attacks, where spoofed addresses help obscure the true origin of the attack and complicate mitigation efforts. It can also support other attacks, including man-in-the-middle attacks and attempts to bypass IP-based trust relationships. This characteristic makes it well suited for large-scale flooding and increasing the magnitude of  attacks. 
 ### Real-World Example
 
 ### Impact
