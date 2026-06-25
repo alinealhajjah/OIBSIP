@@ -115,12 +115,69 @@ IP spoofing is when a threat actor create IP packets using a false IP address. T
 
 ### Impact
 
+This attack has a huge impact since it supports the DDos attack and the man in the middle attack. In those two cases IP address can be used to redirect communications between systems which enable attackers to manipulate network traffic and disrupts services because of the overwhelming amount of traffic. Another thing is it negatively impact confidentiality integrity and availability.
+
 ### Mitigation Strategies
 
+**Ingress Filtering**
+    - Routers examine incoming packets and block those with source IP addresses that should not originate from the network from which they are received. This prevents forged packets from entering a network.
+    
+- **Egress Filtering**
+    - Network administrators configure routers to ensure that outgoing packets contain source IP addresses belonging only to their own network. This prevents attackers from sending spoofed packets to other networks.
+
+**Source Address Validation**
+- Network devices verify that the source IP address of a packet is valid and reachable through the interface on which it was received. Packets failing validation are discarded
+
 ---
+
+## DNS poisoniing
+### how it works
+### real life example 
+### impactn
+### mitigation strategy
+
 
 ## Conclusion
 
 ---
 
 ## References
+
+Burkholder, P. (2002, February 1). *SSL man-in-the-middle attacks*. SANS Institute. https://www.sans.org/white-papers/480/
+
+Cybersecurity and Infrastructure Security Agency. (2020, July 16). *Russian state-sponsored actors exploiting default multifactor authentication protocols and "network trusts"*. U.S. Department of Homeland Security. https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-198a
+
+Cybersecurity and Infrastructure Security Agency. (2021, February 1). *Understanding denial-of-service attacks*. U.S. Department of Homeland Security. https://www.cisa.gov/news-events/news/understanding-denial-service-attacks
+
+GitHub Engineering. (2018, February 28). *DDoS attack incident report*. GitHub Engineering Blog.
+
+MITRE ATT&CK. (2019, April 17). *Network denial of service (T1498)*. MITRE Corporation. https://attack.mitre.org/techniques/T1498/
+
+MITRE ATT&CK. (2025, October 24). *Adversary-in-the-middle (T1557)*. MITRE Corporation. https://attack.mitre.org/techniques/T1557/
+
+National Institute of Standards and Technology. (n.d.). *Man-in-the-middle attack (MitM)*. Computer Security Resource Center. https://csrc.nist.gov/glossary/term/man_in_the_middle_attack
+
+Rao, S. (2011, September 12). *Denial of service attacks and mitigation techniques: Real time implementation with detailed analysis*. SANS Institute. https://www.sans.org/white-papers/33764/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
