@@ -10,7 +10,6 @@ Today's world relies heavily on the internet, whether it's for our daily lives o
 
 ### How It Works
 
-
 Denial of Service Attack (DoS) is when legitimate users are no longer able to access information, systems, devices, or other networks. This attack works by targeting the availability of resources to users. Simply, it is carried out with a large number of systems attacking a specific victim. Threat actors flood the network with a huge amount of service requests that are illegitimate or have a fabricated return address. It exhausts the network's bandwidth. As a result of this traffic, the receiver crashes, preventing access to users.
 
 #### Examples
@@ -63,7 +62,17 @@ Rate limiting restricts the number of requests a user can send within a specific
 
 ### How It Works
 
+Man in the middle (MitM) attack targets the integrity and confidentiality. The attacker intercepts and alter the data  between two entities involved in communication association . This means that data is no longer authentic and reliable and an lawful hacker can access it.
+For example hackers may alter victims domain name system (DNS) so when the victim types a web address, they are redirected to harmful locations controlled by the attacker. They could also manipulate victims DNS to intercept user credentials .
+There a possibility that this attack could work on two or more network  devices this supports acts like network sniffing , transmitted data manipulation. Exploitation for credential access.
+
 ### Real-World Example
+
+Peter Burkholder (2002) analyzed a real-world example of a Man-in-the-Middle attack against SSL/TLS connections. He described how Dug Song’s tool _webmitm_ demonstrated that attackers could transparently intercept encrypted traffic when clients failed to properly validate certificates. The problem was that browsers like Microsoft Internet Explorer would accept any certificate signed by a trusted Certificate Authority, even if it was not issued to the actual server being visited. This allowed an attacker to impersonate a legitimate site, capture sensitive data, and relay traffic without the user realizing.
+Burkholder explained that Dug Song solved the demonstration by exploiting this weakness: he set up _webmitm_ to act as a proxy, presenting a valid but misleading certificate to the client. Because the browser trusted the certificate, the user’s traffic flowed through the attacker’s system, giving full visibility and control.
+The mitigation technique Burkholder emphasized was strict SSL/TLS client configuration and certificate validation. He argued that users and administrators must enforce proper certificate checking, reject mismatched or suspicious certificates, and educate users not to ignore browser warnings. By ensuring that clients verify the authenticity of certificates, the attack could be prevented, closing the gap that allowed _webmitm_ to succeed.
+
+
 
 ### Impact
 
