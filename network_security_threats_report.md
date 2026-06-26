@@ -131,9 +131,30 @@ This attack has a huge impact since it supports the DDos attack and the man in t
 ---
 
 ## DNS poisoniing
+
 ### how it works
+
+Domain name system (DNS) acts like the internet phonebook. We remember website names or links like  www.google.com , this link that we normally see is then translated into machine  friendly IP address like 142.250.190.78 
+DNS caching is when DNS servers store the IP address of a domain so it doesn't have to search for it again. Cached information stay stored for a limited period called (TTL) then it gets removed when the time ends or by someone. 
+The attack works when the attacker manipulate the DNS server into storing a false IP address instead of the legitimate one . Since the fake information now is stored , here is what  will happen
+* User inters the address of the legitimate site
+* DNS looks up the website in its cache 
+* Instead of returning the real IP address , it returns the attackers IP address
+* Browser connects to the malicious website 
+And it will not be removed until (TTL) period ends or  removed manually
+This attack effects  the accuracy , integrity and availability.
+
+
+
+
 ### real life example 
-### impactn
+### impact
+* Steals user information like user names, passwords, financial information
+* Installing malware on victims device 
+* Damaging an organizations reputation
+
+
+
 ### mitigation strategy
 
 
