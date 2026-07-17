@@ -13,18 +13,18 @@ Today's world relies heavily on the internet, whether it's for our daily lives o
 
 Denial of Service Attack (DoS) is when legitimate users are no longer able to access information, systems, devices, or other networks. This attack works by targeting the availability of resources to users. Simply, it is carried out with a large number of systems attacking a specific victim. Threat actors flood the network with a huge amount of service requests that are illegitimate or have a fabricated return address. It exhausts the network's bandwidth. As a result of this traffic, the receiver crashes, preventing access to users.
 
-#### Examples
+### Examples
 
-##### Smurf Attack
+#### Smurf Attack
 
 The attacker sends Internet Control Message Protocol (ICMP) broadcast packets to multiple hosts while spoofing the victim's IP address. The hosts respond to the victim, flooding it with traffic and overwhelming its resources.
 
-##### TCP SYN Flood
+#### TCP SYN Flood
 
 The above-described method works by consuming bandwidth space, whereas this attack aims at exploiting server CPU memory. Whenever a host attempts to connect to a server, a three-way handshake protocol is established before any actual data transfer occurs. Firstly, the host sends a SYN packet to initiate the handshake. The server then replies with an acknowledgement packet. At last, the host needs to send a ACK packet to establish a successful connection. However, attackers leave the handshake half-open by not sending the final SYN-ACK. Such a half-open state is stored in the server's memory, and the server keeps waiting for the host to send the final packet. When thousands of such half-open connections are initiated, the server runs out of memory and crashes. It will not be able to serve legitimate clients, as its memory is filled with forged packets.
 
 
-
+### DDOS
 Distributed Denial of Service Attack (DDoS) is when a threat actor exploits a weakness or a vulnerability in a group of interconnected servers to carry out large-scale attacks. This works by installing command-and-control software. After taking control of the infected devices, which are now called botnets or zombies, attackers send an escalating amount of service requests or traffic to the victim. They could use software exploitations such as buffer overflow, dangling pointers, code injection, etc. DDoS attacks have a large magnitude because many IoT devices are vulnerable because they often have weak default passwords, outdated firmware, or limited security controls.        
 
 
@@ -63,7 +63,7 @@ Rate limiting restricts the number of requests a user can send within a specific
 
 ### How It Works
 
-Man in the middle (MitM) attack targets the integrity and confidentiality. The attacker intercepts and alter the data  between two entities involved in communication association . This means that data is no longer authentic and reliable and an lawful hacker can access it.
+Man in the middle (MitM) attack targets the integrity and confidentiality. The attacker intercepts and alter the data  between two entities involved in communication association . This means that data is no longer authentic and reliable and unlawful hacker can access it.
 For example hackers may alter victims domain name system (DNS) so when the victim types a web address, they are redirected to harmful locations controlled by the attacker. They could also manipulate victims DNS to intercept user credentials .
 There a possibility that this attack could work on two or more network  devices this supports acts like network sniffing , transmitted data manipulation. Exploitation for credential access.
 
@@ -159,7 +159,7 @@ This attack effects  the accuracy , integrity and availability.
 
 
 
-
+---
 
 ## Network Attack Comparison
 
@@ -170,16 +170,10 @@ This attack effects  the accuracy , integrity and availability.
 | **IP Spoofing** | Forging the source IP address in network packets to impersonate another system | Organizations, servers, network infrastructure | **Medium** | **Medium** – Ingress/Egress filtering, source address validation, secure router configuration |
 | **DNS Poisoning** | Corrupting DNS cache records to redirect users to malicious websites | Internet users, organizations, DNS servers | **High** | **Medium** – DNSSEC, secure DNS servers, cache management, regular DNS monitoring |
 
-
-
-
-
-
-
-
+---
 
 ## Conclusion
-
+there are many types of attacks and each one requers specific ways to stop and mitigate. As we see that some of them are related to each other and could aplify the problem. many people and organizations could be at risk because if there is no frequent security checks small problems could turn into huge security breaches.
 ---
 
 ## References
