@@ -173,7 +173,10 @@ This attack effects  the accuracy , integrity and availability.
 ---
 
 ## Conclusion
-there are many types of attacks and each one requers specific ways to stop and mitigate. As we see that some of them are related to each other and could aplify the problem. many people and organizations could be at risk because if there is no frequent security checks small problems could turn into huge security breaches.
+there are many types of attacks and each one requers specific ways to stop and mitigate. As we see that some of them are related to each other and could aplify the problem. 
+many people and organizations could be at risk because if there is no frequent security checks small problems could turn into huge security breaches.
+
+
 ---
 
 ## References
