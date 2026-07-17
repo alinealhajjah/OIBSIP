@@ -1,3 +1,6 @@
+# social engineering attacks
+
+
 ## Introduction 
 
 Social engineering is one of the most hacking techniques used , it is a manipulation technique that exploits human error to gain access to private information. Human error is the result of trusting someone  without a question the hacker creates an environment of false trust and lies to exploit many people as possible.  
