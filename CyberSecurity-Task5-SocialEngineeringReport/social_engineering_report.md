@@ -61,7 +61,7 @@ One of the most famous baiting attacks is credit union USB drop experiment 2006
 A security consultant wanted to do an authorized penetration testing so what he did is that he scattered 20 USB flash drives infected with harmless trojan in employee parking lots and smoking areas. Employees found 15 out of 20 USBs and all of them were plugged into the company computers , the malware successfully collected information like usernames , passwords and computer information.
 
 
-##Quid pro quo
+## Quid pro quo
 
 Quid pro quo means " something for something" just like a transaction , if you do this i will do something in return for you.  An attacker will act like a IT  support and will  keep calling people to find someone who actually has a problem . Once they find a victim, they give them malicious instruction When executed, these instructions compromise the victim’s computer. This attacker can install a malware or collect information. 
 
