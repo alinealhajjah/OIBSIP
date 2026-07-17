@@ -148,6 +148,10 @@ This attack effects  the accuracy , integrity and availability.
 
 
 ### Real life example 
+
+in february and late march 2005 SANS intercepted a widespread DNS poisoning attack. Attackers poisoned vulnrable DNS resolvers causing users to be redirected from actual websites to malicious ones that has spywre and malware.According to SANS, one affected DNS cache contained 665 poisoned hostnames, meaning users attempting to visit trusted websites—including banking, email, and commercial services might instead be redirected to attacker and controlled servers without their knowledge. The primary goal of the attackers was to install spyware and generate revenue through malware infections. 
+
+
 ### Impact
 * Steals user information like user names, passwords, financial information
 * Installing malware on victims device 
@@ -156,7 +160,14 @@ This attack effects  the accuracy , integrity and availability.
 
 ### Mitigation strategy
 
+* Monitor DNS Traffic
+Continuously monitor DNS logs and network traffic for unusual responses, unexpected IP address changes, or suspicious query patterns that may indicate cache poisoning.
 
+* Flush DNS Cache After an Incident
+If DNS poisoning is suspected, clear the DNS cache on affected clients and DNS servers to remove malicious cached records.
+
+* Implement Firewalls and Intrusion Detection/Prevention Systems (IDS/IPS)
+Firewalls and IDS/IPS solutions can detect and block suspicious DNS traffic or attempts to exploit DNS vulnerabilities.
 
 
 ---
@@ -181,26 +192,25 @@ many people and organizations could be at risk because if there is no frequent s
 
 ## References
 
+Awati, R. (2021, November 5). *What is cache poisoning and how does it work?* TechTarget. https://www.techtarget.com/searchsecurity/definition/cache-poisoning
+
 Burkholder, P. (2002, February 1). *SSL man-in-the-middle attacks*. SANS Institute. https://www.sans.org/white-papers/480/
 
 Cybersecurity and Infrastructure Security Agency. (2020, July 16). *Russian state-sponsored actors exploiting default multifactor authentication protocols and "network trusts"*. U.S. Department of Homeland Security. https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-198a
 
-Awati, R. (2021, November 5). What is cache poisoning and how does it work? TechTarget. https://www.techtarget.com/searchsecurity/definition/cache-poisoning
-
 Cybersecurity and Infrastructure Security Agency. (2021, February 1). *Understanding denial-of-service attacks*. U.S. Department of Homeland Security. https://www.cisa.gov/news-events/news/understanding-denial-service-attacks
 
-GitHub Engineering. (2018, February 28). *DDoS attack incident report*. GitHub Engineering Blog.
+GitHub Engineering. (2018, February 28). DDoS attack incident report. GitHub Engineering Blog. https://github.blog/news-insights/ddos-incident-report/
 
-MITRE ATT&CK. (2019, April 17). *Network denial of service (T 1498)*. MITRE Corporation. https://attack.mitre.org/techniques/T1498/
+Haugsness, K., & SANS Internet Storm Center Incident Handlers. (2005). *DNS cache poisoning detailed analysis report* (Version 2). SANS Internet Storm Center. https://isc.sans.edu/presentations/dnspoisoning.html
 
-MITRE ATT&CK. (2025, October 24). *Adversary-in-the-middle (T 1557)*. MITRE Corporation. https://attack.mitre.org/techniques/T1557/
+MITRE ATT&CK. (2019, April 17). *Network denial of service (T1498)*. MITRE Corporation. https://attack.mitre.org/techniques/T1498/
+
+MITRE ATT&CK. (2025, October 24). *Adversary-in-the-middle (T1557)*. MITRE Corporation. https://attack.mitre.org/techniques/T1557/
 
 National Institute of Standards and Technology. (n.d.). *Man-in-the-middle attack (MitM)*. Computer Security Resource Center. https://csrc.nist.gov/glossary/term/man_in_the_middle_attack
 
 Rao, S. (2011, September 12). *Denial of service attacks and mitigation techniques: Real time implementation with detailed analysis*. SANS Institute. https://www.sans.org/white-papers/33764/
-
-
-
 
 
 
