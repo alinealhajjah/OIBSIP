@@ -82,11 +82,12 @@ Quid pro quo means " something for something" just like a transaction , if you d
 
 ## organizational reccomendations 
 
-* employees should be trained to identify scam calls from legitimate ones
-* employees should be trained to spot malicoius links before opening them
-* employees should have situational awarness in thier work invironment
-* employees should learn to identify the person they are communicating with inorder to make sure it's not an attacker
-* they should not give any personal or orginizational information
+
+  *Employees should be trained to identify scam calls from legitimate ones
+  *Employees should be trained to spot malicoius links before opening them
+  *Employees should have situational awarness in thier work invironment
+  *Employees should learn to identify the person they are communicating with in order to make sure it's not an attacker
+  *They should not give any personal or organizational information
 
 
 ## citations 
