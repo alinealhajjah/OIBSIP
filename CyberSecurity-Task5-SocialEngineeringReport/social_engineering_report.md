@@ -71,6 +71,22 @@ Quid pro quo means " something for something" just like a transaction , if you d
 - Do not give any information about you 
 - Make sure to contact the company IT support team through the company website 
 
+## Social Engineering Attack Comparison
+
+| Attack | Primary Target | Attack Type | Psychological Lever Exploited | Best Countermeasures |
+|--------|----------------|-------------|-------------------------------|----------------------|
+| **Phishing** | General users and employees | Fraudulent emails, messages, websites, or phone/text communications to steal credentials or deliver malware | **Urgency, fear, trust, curiosity** | Verify the sender before opening links or attachments, use Multi-Factor Authentication (MFA), avoid sharing sensitive information, enable anti-phishing protection |
+| **Pretexting** | Employees and individuals with access to sensitive information | Impersonation using a fabricated identity or scenario to obtain confidential information | **Trust, authority, helpfulness** | Verify identities before sharing information, never disclose passwords or confidential data without independent verification, provide employee security awareness training |
+| **USB Baiting** | Employees with physical access to company computers | Physical social engineering using infected USB devices left in public areas | **Curiosity, temptation** | Never connect unknown USB devices, report suspicious devices, educate employees, restrict USB access through security policies |
+| **Quid Pro Quo** | Employees seeking technical support or assistance | Offering a service or benefit in exchange for information or system access | **Reciprocity (something for something), trust, authority** | Verify the caller's identity, contact the official IT department through trusted channels, never follow unsolicited instructions, avoid sharing sensitive information |
+
+## organizational reccomendations 
+
+* employees should be trained to identify scam calls from legitimate ones
+* employees should be trained to spot malicoius links before opening them
+* employees should have situational awarness in thier work invironment
+* employees should learn to identify the person they are communicating with inorder to make sure it's not an attacker
+* they should not give any personal or orginizational information
 
 
 ## citations 
