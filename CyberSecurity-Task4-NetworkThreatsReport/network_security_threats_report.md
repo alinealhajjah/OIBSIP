@@ -154,8 +154,28 @@ This attack effects  the accuracy , integrity and availability.
 * Damaging an organizations reputation
 
 
-
 ### Mitigation strategy
+
+
+
+
+
+
+## Network Attack Comparison
+
+| Attack | Attack Vector | Who Is at Risk | Difficulty to Execute | Ease of Mitigation |
+|--------|---------------|----------------|-----------------------|--------------------|
+| **DoS / DDoS** | Flooding a target with excessive network traffic from one or multiple compromised systems | Organizations, websites, online services, cloud providers | **Medium–High** (DoS: Medium, DDoS: High due to botnet requirements) | **Medium** – DDoS protection services, traffic filtering, ACLs, rate limiting, and load balancing |
+| **Man-in-the-Middle (MitM)** | Intercepting communication between two parties through insecure networks or compromised connections | Users on public Wi-Fi, businesses, online banking users | **Medium** | **Medium–Easy** – TLS/HTTPS, certificate validation, mutual authentication, message integrity checks |
+| **IP Spoofing** | Forging the source IP address in network packets to impersonate another system | Organizations, servers, network infrastructure | **Medium** | **Medium** – Ingress/Egress filtering, source address validation, secure router configuration |
+| **DNS Poisoning** | Corrupting DNS cache records to redirect users to malicious websites | Internet users, organizations, DNS servers | **High** | **Medium** – DNSSEC, secure DNS servers, cache management, regular DNS monitoring |
+
+
+
+
+
+
+
 
 
 ## Conclusion
