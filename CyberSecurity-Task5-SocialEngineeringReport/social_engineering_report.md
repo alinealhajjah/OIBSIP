@@ -73,6 +73,27 @@ Quid pro quo means " something for something" just like a transaction , if you d
 
 
 
+## citations 
+
+Brozycki, J. (2009). Inside a phish. SANS Institute Reading Room. https://www.sans.org/white-papers/33139
+
+Cybersecurity and Infrastructure Security Agency. (2021, February 1). Avoiding social engineering and phishing attacks. https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks
+
+Greenberg, A. (2020, August 18). Inside the Twitter hack—and what happened next. WIRED. https://www.wired.com/story/inside-twitter-hack-election-plan/
+
+Greenberg, A. (2021, May 20). The full story of the stunning RSA hack can finally be told. WIRED. https://www.wired.com/story/the-full-story-of-the-stunning-rsa-hack-can-finally-be-told/
+
+National Institute of Standards and Technology. (n.d.). Phishing. Computer Security Resource Center Glossary. https://csrc.nist.gov/glossary/term/phishing
+
+National Institute of Standards and Technology. (n.d.). 
+Social engineering. Computer Security Resource Center Glossary. https://csrc.nist.gov/glossary/term/social_engineering
+
+SANS Institute. (n.d.). Glossary of security terms: Social engineering. https://www.sans.org/security-resources/glossary-of-terms
+
+University of Florida Information Technology. (n.d.). 
+Quid pro quo. https://it.ufl.edu/security/learn-security/social-engineering/quid-pro-quo/
+
+Zetter, K. (2006, September 14). Protect yourself from pretexting. WIRED. https://www.wired.com/2006/09/protect-yourself-from-pretexting/
 
 
 
