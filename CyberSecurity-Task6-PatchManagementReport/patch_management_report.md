@@ -40,6 +40,25 @@ In 2017 a huge security breach happened at Equifax  where the hacker stole the P
 
 ## Consequences of not patching
 
+### Damage to Reputation
+
+Customers expect organizations to protect their personal information. A breach caused by poor patch management can damage an organization's reputation, reduce customer confidence, and lead to the loss of business opportunities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##  Patch management lifecycle
 
 ## Best practices
@@ -59,3 +78,19 @@ U.S. Government Accountability Office. (2018). Data protection: Actions taken by
 Microsoft Security Response Center. (2017). Microsoft Security Bulletin MS17-010. https://msrc.microsoft.com/
 
 Cybersecurity and Infrastructure Security Agency. (n.d.). Known Exploited Vulnerabilities Catalog. https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+
+National Institute of Standards and Technology. (2022). Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology (NIST SP 800-40 Rev. 4). https://doi.org/10.6028/NIST.SP.800-40r4
+
+Cybersecurity and Infrastructure Security Agency. (n.d.). Known Exploited Vulnerabilities Catalog. https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+
+
+U.S. Government Accountability Office. (2018). Data Protection: Actions Taken by Equifax and Federal Agencies in Response to the 2017 Breach. https://www.gao.gov/products/gao-18-559
+
+
+
+
+
+
+
+
+
