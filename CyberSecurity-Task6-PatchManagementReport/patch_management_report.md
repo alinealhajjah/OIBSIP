@@ -69,6 +69,37 @@ According to the **IBM Cost of a Data Breach Report 2025**, the **global average
 
 ##  Patch management lifecycle
 
+life cycle consists of five stages:
+
+1- Discovery : this is when organizations discover the vulnerability and make security audits to identify assets , software , libraries that are at risk.
+
+2- Assessment: Evaluate the severity of each vulnerability using factors such as CVSS score, exploit availability, asset criticality, and business impact to determine patch priority.
+
+3- Testing:  testing the patches should be planned before implementing the patch , they should make preparatory activities such as acquiring, validating, and testing patches for the vulnerable software; deploying additional security controls to safeguard the vulnerable software.They will prioritize the patch then schedule a deployment and test it to reduce operational risk .
+
+4- Deployment : after the patch is tested we have several other factors affect the deployment of the patch: 
+  The type of software being updated (e.g., firmware, operating system [OS], application)
+  The asset platform type (e.g., IT, OT, IoT, mobile, cloud, virtual machine [VM],
+Containers)
+  Platform traits, such as managed/unmanaged asset, virtualized or not, and containerized or not
+   Environmental limitations
+   
+5- Verification :  check if systems are working well and functioning and most important is to keep monitoring it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Best practices
 
 ## Challenges
