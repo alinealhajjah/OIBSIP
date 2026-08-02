@@ -97,43 +97,33 @@ Containers)
 
 ## Challenges
 
+Here are some challenges that organizations might face when deploying patches.
 
+1- legacy systems: those are the systems that have not been updated and may not support the current security updates, this problem could be solved by isolating them and restricting access to them.
 
+2- Down time concerns: when installing patches some business delays could happen and organizations don't want that to happen, we could fix this problem bt scheduling maintenance windows to minimize disruptions.
 
+3- Testing patches: some patches are incompatible with systems, so they need to make a testing environment before deploying the patch.
 
+4- large and complex working environment: these organizations have to manage thousands of devices across different places so they should Maintain accurate asset inventories and use centralized management platforms to deploy patches consistently.
 
+## Reference section
 
+Cybersecurity and Infrastructure Security Agency. (n.d.). *Known Exploited Vulnerabilities Catalog*. https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 
+Federal Trade Commission. (2019, July 22). *Equifax to pay $575 million as part of settlement with FTC, CFPB, and states related to 2017 data breach*. https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach
 
+IBM. (2025). *Cost of a data breach report 2025*. https://www.ibm.com/reports/data-breach
 
+Microsoft Security Response Center. (2017). *Microsoft Security Bulletin MS17-010*. https://msrc.microsoft.com/
 
+National Institute of Standards and Technology. (2022). *Guide to enterprise patch management planning: Preventive maintenance for technology* (Special Publication 800-40 Rev. 4). https://doi.org/10.6028/NIST.SP.800-40r4
 
+National Institute of Standards and Technology. (n.d.). *National Vulnerability Database*. https://nvd.nist.gov/
 
-## References section 
+The MITRE Corporation. (n.d.). *Common Vulnerabilities and Exposures (CVE).* https://www.cve.org/
 
-National Institute of Standards and Technology. (2022). Guide to enterprise patch management planning: Preventive maintenance for technology (Special Publication 800-40 Rev. 4). https://doi.org/10.6028/NIST.SP.800-40r4
-
-The MITRE Corporation. (n.d.). Common Vulnerabilities and Exposures (CVE). https://www.cve.org/
-
-National Institute of Standards and Technology. (n.d.). National Vulnerability Database. https://nvd.nist.gov/
-
-U.S. Government Accountability Office. (2018). Data protection: Actions taken by Equifax and federal agencies in response to the 2017 breach. https://www.gao.gov/products/gao-18-559
-
-Microsoft Security Response Center. (2017). Microsoft Security Bulletin MS17-010. https://msrc.microsoft.com/
-
-Cybersecurity and Infrastructure Security Agency. (n.d.). Known Exploited Vulnerabilities Catalog. https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-
-National Institute of Standards and Technology. (2022). Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology (NIST SP 800-40 Rev. 4). https://doi.org/10.6028/NIST.SP.800-40r4
-
-Cybersecurity and Infrastructure Security Agency. (n.d.). Known Exploited Vulnerabilities Catalog. https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-
-
-U.S. Government Accountability Office. (2018). Data Protection: Actions Taken by Equifax and Federal Agencies in Response to the 2017 Breach. https://www.gao.gov/products/gao-18-559
-
-Federal Trade Commission. (2019, July 22). Equifax to pay $575 million as part of settlement with FTC, CFPB, and states related to 2017 data breach. https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach
-
-IBM. (2025). Cost of a data breach report 2025. https://www.ibm.com/reports/data-breach
-
+U.S. Government Accountability Office. (2018). *Data protection: Actions taken by Equifax and federal agencies in response to the 2017 breach*. https://www.gao.gov/products/gao-18-559
 
 
 
