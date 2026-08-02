@@ -86,23 +86,28 @@ Containers)
    
 5- Verification :  check if systems are working well and functioning and most important is to keep monitoring it.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Best practices
+* maintain a complete inventory of all hardware and software
+* monitor for newly released vulnerabilities and patches
+* identify risks and prioritize patches depending on the risk
+* test patches
+* deploy the patch
+* verification phase
+* keep monitoring , document and improve the process
 
 ## Challenges
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References section 
 
@@ -128,6 +133,14 @@ U.S. Government Accountability Office. (2018). Data Protection: Actions Taken by
 Federal Trade Commission. (2019, July 22). Equifax to pay $575 million as part of settlement with FTC, CFPB, and states related to 2017 data breach. https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach
 
 IBM. (2025). Cost of a data breach report 2025. https://www.ibm.com/reports/data-breach
+
+
+
+
+
+
+
+
 
 
 
