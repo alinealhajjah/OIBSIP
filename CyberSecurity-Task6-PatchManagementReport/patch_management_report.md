@@ -44,19 +44,27 @@ In 2017 a huge security breach happened at Equifax  where the hacker stole the P
 
 Customers expect organizations to protect their personal information. A breach caused by poor patch management can damage an organization's reputation, reduce customer confidence, and lead to the loss of business opportunities.
 
+### Operational downtime 
 
+Attacks may force organizations to shut down for a period of time which will delay services , business operations this also reduce costumers trust 
 
+### Compliance violations 
 
+Many security frameworks require organizations to keep systems updated with security patches. Failing to do this may result in legal actions
 
+  ### Financial Losses
+  
+- Incident response and forensic investigations
+- System recovery and restoration
+- Business downtime
+- Lost productivity
+- Legal expenses
+- Compensation to affected customers
+- Ransom payments 
+### Real world statistics
+Equifax agreed to a **settlement of up to $700 million** with the U.S. Federal Trade Commission, Consumer Financial Protection Bureau, and 50 states because it failed to protect consumers' personal information after an unpatched vulnerability was exploited.
 
-
-
-
-
-
-
-
-
+According to the **IBM Cost of a Data Breach Report 2025**, the **global average cost of a data breach is USD $4.44 million**. The report also found that organizations using AI-powered security and automation saved an average of **USD $1.9 million** per breach compared with organizations that did not use these technologies. These findings show that investing in proactive security measures, including timely patch management, can significantly reduce the financial impact of cyber incidents.
 
 
 ##  Patch management lifecycle
@@ -86,8 +94,9 @@ Cybersecurity and Infrastructure Security Agency. (n.d.). Known Exploited Vulner
 
 U.S. Government Accountability Office. (2018). Data Protection: Actions Taken by Equifax and Federal Agencies in Response to the 2017 Breach. https://www.gao.gov/products/gao-18-559
 
+Federal Trade Commission. (2019, July 22). Equifax to pay $575 million as part of settlement with FTC, CFPB, and states related to 2017 data breach. https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach
 
-
+IBM. (2025). Cost of a data breach report 2025. https://www.ibm.com/reports/data-breach
 
 
 
