@@ -11,3 +11,4 @@
 *the importance of patch managment
 
 *vulnerability scanning with nikto
+
